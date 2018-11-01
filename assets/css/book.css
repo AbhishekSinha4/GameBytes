@@ -1,0 +1,25 @@
+.container p{
+	font-size: 1.5em;
+	font-family: Helvetica;
+	padding: 10px 0;
+	color: gray;
+
+}
+.container h1{
+	color: #ccc;
+	text-align: center;
+	text-shadow: black 0px 0px 5px;
+	margin-bottom: 50px;
+
+}
+p input{
+	float: right;
+
+	/*margin-right: 100px;*/
+}
+#details{
+	margin-top: 30px;
+	width: 50%;
+	background: rgba(0,0,0,0.4);
+	padding: 100px;
+} 

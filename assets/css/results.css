@@ -1,0 +1,32 @@
+.container h1{
+	text-shadow: 0 0 2px white;
+	color: black;
+}
+hr{
+	color: blue;
+	background: blue;
+	border-color: #777;
+}
+.content-box,.details{
+	float: left;
+}
+.details{
+	color: #ddd;
+	padding: 50px;
+}
+.clearing{
+	clear: both;
+}
+.more{
+	background-color: rgba(0,0,0,0.3);
+	border: none;
+	box-shadow: 2px 2px black;
+	padding: 10px;
+	outline: none;
+}
+.more:active {
+	position:relative;
+	top:2px;
+	left: 2px;
+	box-shadow: none;
+}

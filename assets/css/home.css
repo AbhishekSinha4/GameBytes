@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(90deg,#200 10%,#311 25%,#511 40%,#511 60%,#311 75%,#200 90%);
+}
+
+h2{
+	color: lightgray;
+}
+
+#nav{
+	position: sticky;
+	z-index: 50;
+	top:0;
+}
+#nav .navbar-brand{
+	color: white;
+}
+#nav form{
+	display: inline;
+	line-height: 50px;
+	position: relative;
+}
+#nav form input{
+	width: 400px;
+	box-sizing: border-box;
+	padding-right: 100px;
+}
+#nav form select{
+	position: absolute;
+	top:50%;
+	left:300px;
+	padding-left: 20px;
+	transform: translateY(-50%);
+	border: none;
+	line-height: 50px;
+	height: 30px;
+	width:98px;
+	outline: none;
+}
+
+.content-box{
+	position: relative;
+	display: inline-block;
+	width: 192px;
+	height: 192px;
+	background: #080808;
+	border: #080808 solid 2px;
+	margin: 10px;
+	color: #999;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: #311 2px 2px 2px;
+}
+.content-box:hover {
+	border: #711 solid 2px;
+	box-sizing: border-box;
+	background: #121212;
+
+}
+.content-box p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-shadow: red 1px 1px 1px;
+}
+form{
+	display: inline;
+}
+form button.more{
+
+}
+.home-more{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	outline: none;
+}
